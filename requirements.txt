@@ -1,5 +1,3 @@
 vk_api
 lxml
 requests
-datetime
-time
