@@ -1,1 +1,1 @@
-worker: python3 vk_api.py
+worker: python3 vk_aps.py
