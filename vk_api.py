@@ -12,7 +12,7 @@ while True:
     t = (datetime.datetime.now(datetime.timezone.utc) + delta)
     nowtime = t.strftime("%H:%M")  # текущее время
     nowdate = t.strftime("%d.%m.%Y")  # текущая дата
-    on = vk.method("friends.getOnline")  # получаем список id друзей онлайн
+    on = vk.method("friends.getOnline")  #  получаем список id друзей онлайн
     counted = len(on)  # считаем кол-во элементов в списке
     endin = counted % 10
     if endin in range(2,5):
