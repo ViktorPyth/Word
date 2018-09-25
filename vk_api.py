@@ -7,7 +7,7 @@ from lxml import html
 
 url = 'https://yandex.ru/pogoda/kazan'
 while True:
-    vk = vk_api.vkAPI(token="7ee75e0161b92ed2dc121c1e6d1a9d39afaa9cbdf425a6eba952c86f0deb4e9112bdc72787b572431fe50")
+    vk = vk_api.VkApi(token="7ee75e0161b92ed2dc121c1e6d1a9d39afaa9cbdf425a6eba952c86f0deb4e9112bdc72787b572431fe50")
     delta = datetime.timedelta(hours=3, minutes=0)
     t = (datetime.datetime.now(datetime.timezone.utc) + delta)
     nowtime = t.strftime("%H:%M")  # текущее время
