@@ -1,2 +1,4 @@
 # api для вк
 vk_api
+lxml
+requests
